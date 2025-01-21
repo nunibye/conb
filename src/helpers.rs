@@ -74,7 +74,7 @@ pub fn binary_to_decimal(binary: &str) -> Result<String, std::num::ParseIntError
         inverted as i128
     };
     Ok(format!(
-        "  Unsigned: {},\n  2's Compliment: {}\n  2's Compliment: {}\n",
+        "  Unsigned: {}\n  2's Compliment: {}\n  1's Compliment: {}\n",
         unsigned, twos_complement, ones_complement
     ))
 }
